@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+header {
+    background-color: #777; /* Darker grey for the header */
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+    list-style-type: none; /* Remove bullet points */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between menu items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text */
+    font-weight: bold; /* Bold font */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #ccc; /* Change color on hover */
+}
+
+main {
+    max-width: 800px; /* Max width for main content */
+    margin: 20px auto; /* Center the main content */
+    padding: 20px;
+    background: white; /* White background for content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.section {
+    margin-bottom: 40px; /* Space between sections */
+}
+
+.profile-pic {
+    display: block; /* Make it a block element */
+    margin: 0 auto 20px; /* Center the image and add space below */
+    width: 150px; /* Set width of the profile picture */
+    height: auto; /* Maintain aspect ratio */
+    
+    border: 3px solid #777; /* Border around the image */
+}
+
+h1 {
+    border-bottom: 2px solid #777; /* Underline for headings */
+    padding-bottom: 10px;
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.skills-list {
+    list-style-type: square; /* Square bullets for skills */
+    padding-left: 20px; /* Indentation for the list */
+}
+
+.experience-item {
+    background: #f9f9f9; /* Light background for experience items */
+    padding: 15px; /* Padding inside the item */
+    margin-bottom: 20px; /* Space between items */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+footer {
+    text-align: center; /* Center text */
+    padding: 20px;
+    background-color: #777; /* Dark grey footer */
+    color: white; /* White text */
+    position: relative;
+    bottom: 0;
+    width: 100%; /* Full width */
+}
